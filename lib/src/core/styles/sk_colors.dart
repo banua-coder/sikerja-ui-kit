@@ -10,6 +10,22 @@ class SKColors {
   static const Color primaryHover = Color(0xFF283584);
   static const Color primaryPressed = Color(0xFF182050);
 
+  static const MaterialColor primarySwatch = MaterialColor(
+    0xFF303F9F,
+    <int, Color>{
+      50: Color(0xFFf1f5fd),
+      100: Color(0XFFdfe8fa),
+      200: Color(0xFFc7d7f6),
+      300: Color(0XFFa0bef0),
+      400: Color(0XFF739be7),
+      500: Color(0XFF5279df),
+      600: Color(0XFF3d5dd3),
+      700: Color(0XFF344bc1),
+      800: Color(0xFF303F9F),
+      900: Color(0XFF2b387d),
+    },
+  );
+
   static const MaterialColor neutral = MaterialColor(
     0xFFAEAEAE,
     {

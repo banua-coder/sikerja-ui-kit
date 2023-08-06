@@ -25,20 +25,9 @@ class SKTextStyle {
         color: color,
       );
 
-  static TextTheme mainTextTheme = TextTheme(
-    displayLarge: SKTextStyle.title(),
-    displayMedium: SKTextStyle.heading1(),
-    displaySmall: SKTextStyle.heading2(),
-    titleLarge: SKTextStyle.heading3(
-      fontWeight: FontWeight.w500,
-    ),
-    titleMedium: SKTextStyle.heading3(
-      fontWeight: FontWeight.w600,
-    ),
-    titleSmall: SKTextStyle.heading3(),
-    bodyLarge: SKTextStyle.body2(),
-    bodyMedium: SKTextStyle.body1(),
-    bodySmall: SKTextStyle.caption(),
+  static TextTheme mainTextTheme = GoogleFonts.montserratTextTheme();
+  static TextTheme darkTextTheme = GoogleFonts.montserratTextTheme(
+    ThemeData.dark().textTheme,
   );
 
   static TextStyle title({

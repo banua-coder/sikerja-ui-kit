@@ -41,7 +41,7 @@ class SKTheme {
         brightness: Brightness.dark,
         useMaterial3: true,
         colorScheme: ColorScheme(
-          brightness: Brightness.light,
+          brightness: Brightness.dark,
           primary: SKColors.primary,
           onPrimary: SKColors.neutral[10]!,
           secondary: SKColors.secondary,

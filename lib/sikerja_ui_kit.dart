@@ -13,3 +13,6 @@ export 'src/core/styles/sk_text_style.dart';
 // themes
 export 'src/core/theme/sk_color_theme.dart';
 export 'src/core/theme/sk_theme.dart';
+
+// utils
+export 'src/core/utils/sk_component_init.dart';

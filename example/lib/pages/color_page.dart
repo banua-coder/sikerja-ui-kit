@@ -23,7 +23,7 @@ class ColorPage extends StatelessWidget {
           colorsCollection(skColors!).length,
           (index) {
             var color = colorsCollection(skColors)[index];
-            var name = names[index];
+            var name = names[index].split(': ')[0];
 
             return ListTile(
               title: SelectableText(

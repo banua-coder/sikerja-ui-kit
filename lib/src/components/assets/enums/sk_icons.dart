@@ -1,0 +1,45 @@
+import '../../../core/assets/gen/assets.gen.dart';
+
+enum SKIcons {
+  advertising,
+  book,
+  bullets,
+  certificate,
+  collection,
+  event,
+  fashion,
+  filter,
+  guide,
+  headphones,
+  investment,
+  logistic,
+  market,
+  pharmacy,
+  photoCamera,
+  search,
+  toolBox,
+  workHistoryFilled,
+  workHistory;
+
+  String get path => switch (this) {
+        advertising => Assets.icons.advertising.path,
+        book => Assets.icons.book.path,
+        bullets => Assets.icons.bullets.path,
+        certificate => Assets.icons.certificate.path,
+        collection => Assets.icons.collection.path,
+        event => Assets.icons.event.path,
+        fashion => Assets.icons.fashion.path,
+        filter => Assets.icons.filter.path,
+        guide => Assets.icons.guide.path,
+        headphones => Assets.icons.headphones.path,
+        investment => Assets.icons.investment.path,
+        logistic => Assets.icons.logistic.path,
+        market => Assets.icons.market.path,
+        pharmacy => Assets.icons.pharmacy.path,
+        photoCamera => Assets.icons.photoCamera.path,
+        search => Assets.icons.search.path,
+        toolBox => Assets.icons.toolBox.path,
+        workHistoryFilled => Assets.icons.workHistoryFilled.path,
+        workHistory => Assets.icons.workHistory.path,
+      };
+}

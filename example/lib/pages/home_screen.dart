@@ -1,4 +1,8 @@
+import 'package:example/pages/animation_page.dart';
 import 'package:example/pages/color_page.dart';
+import 'package:example/pages/icon_page.dart';
+import 'package:example/pages/illustration_page.dart';
+import 'package:example/pages/logo_page.dart';
 import 'package:example/pages/typography_page.dart';
 import 'package:flutter/material.dart';
 import 'package:sikerja_ui_kit/sikerja_ui_kit.dart';
@@ -22,6 +26,23 @@ class HomeScreen extends StatelessWidget {
             page: TypographyPage(),
           ),
           const _PageButton(label: 'Colors', page: ColorPage()),
+          const _SectionTitle(title: 'Assets'),
+          const _PageButton(
+            label: 'Animation',
+            page: AnimationPage(),
+          ),
+          const _PageButton(
+            label: 'Icon',
+            page: IconPage(),
+          ),
+          const _PageButton(
+            label: 'Illustration',
+            page: IllustrationPage(),
+          ),
+          const _PageButton(
+            label: 'Logo',
+            page: LogoPage(),
+          ),
         ],
       ),
     );

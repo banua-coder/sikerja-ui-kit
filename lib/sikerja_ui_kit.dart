@@ -5,6 +5,12 @@ export 'package:flutter_screenutil/flutter_screenutil.dart';
 export 'package:nil/nil.dart';
 
 // components
+export 'src/components/assets/enums/sk_animations.dart';
+export 'src/components/assets/enums/sk_asset_type.dart';
+export 'src/components/assets/enums/sk_icons.dart';
+export 'src/components/assets/enums/sk_illustrations.dart';
+export 'src/components/assets/enums/sk_logo.dart';
+export 'src/components/assets/sk_assets.dart';
 
 // styles
 export 'src/core/styles/sk_colors.dart';
